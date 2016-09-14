@@ -1,0 +1,7 @@
+[package]
+name = "radix-sort"
+version = "0.1.0"
+authors = ["Devon Hollowood <devonhollowood@gmail.com>"]
+
+[dev-dependencies]
+rand = "*"
