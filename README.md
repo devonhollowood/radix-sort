@@ -10,3 +10,5 @@ test bench_1000_items    ... bench:     134,194 ns/iter (+/- 61,719)
 test bench_100_items     ... bench:      21,148 ns/iter (+/- 8,194)
 test bench_10_items      ... bench:       4,772 ns/iter (+/- 2,112)
 ```
+
+![best fit image](https://github.com/devonhollowood/radix-sort/blob/master/make-plot/benchmark-fit.png?raw=true)
