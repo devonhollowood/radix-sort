@@ -24,7 +24,7 @@ errbars = liftEC $ do
 main = toFile def "benchmark-fit.png" $ do
     setColors (map opaque [blue,red,green])
     layout_title .=
-        printf "t = %.2f (ns/element) + %.2f ns [chi^2 = %.2f]" slope intercept chi_sq
+        printf "t = %.2f (ns/element) n + %.2f (ns) [chi^2 = %.2f]" slope intercept chi_sq
     layout_x_axis . laxis_generate .= autoScaledLogAxis def
     layout_y_axis . laxis_generate .= autoScaledLogAxis def
     plot errbars
